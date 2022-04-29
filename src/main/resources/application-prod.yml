@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: user-center
+  # DataSource Config
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://gz-cynosdbmysql-grp-meconeop.sql.tencentcdb.com:28046/jiege?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+    username: root
+    password: QWErtyuiop123
+  session:
+    timeout: 86400
+
+
+#DataSourceSettings#
+#LocalDataSource: gz-cynosdbmysql-grp-meconeop.sql.tencentcdb.com
+#BEGIN#
+<data-source source="LOCAL" name="gz-cynosdbmysql-grp-meconeop.sql.tencentcdb.com" uuid="2733ca57-ee4b-4008-b866-0f4192e07f53"><database-info product="MySQL" version="8.0.22-cynos" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="8.0.22" exact-driver-version="8.0"><extra-name-characters>#@</extra-name-characters><identifier-quote-string>`</identifier-quote-string></database-info><case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/><driver-ref>mysql.8</driver-ref><synchronize>true</synchronize><jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver><jdbc-url>jdbc:mysql://gz-cynosdbmysql-grp-meconeop.sql.tencentcdb.com:28046</jdbc-url><secret-storage>master_key</secret-storage><user-name>root</user-name><schema-mapping><introspection-scope><node kind="schema" qname="jiege"/></introspection-scope></schema-mapping><working-dir>$ProjectFileDir$</working-dir></data-source>
+#END#
